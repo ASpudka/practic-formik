@@ -15,7 +15,7 @@ const InputInLabel = (props) => {
           return <input {...field} className={inputClasses} {...restProps} />;
         }}
       </Field>
-      <ErrorMessage name={name} component="div" className={styles.error} />
+      <ErrorMessage name={[name]} component="div" className={styles.error} />
     </label>
   );
 };
