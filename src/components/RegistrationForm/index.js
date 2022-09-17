@@ -20,7 +20,7 @@ const RegistrationForm = () => {
     <Formik
       initialValues={initialValues}
       onSubmit={onSubmit}
-      validateSchemas={SCHEMA_REGISTRATION}
+      validationSchema={SCHEMA_REGISTRATION}
     >
       {(formikProps) => {
         return (

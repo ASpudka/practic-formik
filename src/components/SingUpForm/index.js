@@ -16,7 +16,7 @@ const SingUpForm = () => {
     <Formik
       initialValues={initialValues}
       onSubmit={onSubmit}
-      validateSchemas={SCHEMA_SIGN_IN}
+      validationSchema={SCHEMA_SIGN_IN}
     >
       {(formikProps) => {
         return (

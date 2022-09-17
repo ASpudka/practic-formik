@@ -6,7 +6,7 @@ import cx from "classnames";
 const InputInLabel = (props) => {
   const { name, ...restProps } = props;
   return (
-    <label>
+    <label className={styles.input}>
       <Field name={name}>
         {({ field, form, meta }) => {
           const inputClasses = cx(styles.input, {
