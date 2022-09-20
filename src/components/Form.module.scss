@@ -9,14 +9,15 @@
   
   .radio{
   display: flex;
-  flex-direction: row;
-  align-items: center;
+     align-items: center;
   margin: auto;
   color: white;
+  h2{
+    flex-grow: 1;
+    width: 90%;
   }
-  .radio>p{
-    flex-wrap: nowrap;
   }
+  
 .btn{
   width: 27%;
   align-self: center;

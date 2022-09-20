@@ -11,8 +11,8 @@ const RegistrationForm = () => {
     dname: "",
     email: "",
     password: "",
-    passwordconfirm: "",}
-  ;
+    passwordconfirm: "",
+  };
   const onSubmit = (values, formikBag) => {
     formikBag.resetForm();
   };
@@ -56,13 +56,18 @@ const RegistrationForm = () => {
             <div className={styles.radio}>
               <InputInLabel type="radio" value="0" />
               <h2>Join As a Buyer</h2>
-              <p> I am looking for a Name</p>
             </div>
+            <p> I am looking for a Name</p>
+
             <div className={styles.radio}>
               <InputInLabel type="radio" value="0" />
               <h2>Join As sa Creative or Marketplace Seller</h2>
-              <p>gjhnghjfgkdms</p>
             </div>
+            <p>
+              I plan to submit name ideas. Logo designs or sell names in Domain
+              Marcketplace.
+            </p>
+
             <input type="submit" className={styles.btn} />
           </Form>
         );
